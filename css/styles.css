@@ -1,0 +1,63 @@
+.top {
+    background-image: url("../img/backgrounds/landing.jpg");
+    padding: 10%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.top h1 {
+    color: #ffffff;
+}
+.hp {
+    background-color: gainsboro;
+    padding: 27px;
+    text-align: center;
+}
+.pt {
+    background-color: #F15A29;
+    padding: 27px;
+    color: whitesmoke;
+    text-align: center;
+}
+.four {
+    display: inline-block;
+    vertical-align: top;
+    width: 24.77%;
+}
+.breakfast {
+    background-image: url("../img/foodtop/breakfast.jpg");
+    background-repeat: no-repeat;
+    height: 150px;
+    text-align: center;
+    padding-top: 70px;
+    color: whitesmoke;
+}
+.lunch {
+    background-image: url("../img/foodtop/lunch.jpg");
+    background-repeat: no-repeat;
+    height: 150px;
+    text-align: center;
+    padding-top: 70px;
+    color: whitesmoke;
+}
+.dinner {
+    background-image: url("../img/foodtop/dinner.jpg");
+    background-repeat: no-repeat;
+    height: 150px;
+    text-align: center;
+    padding-top: 70px;
+    color: whitesmoke;    
+}
+.breakfast:hover {
+    background: url(../img/foodtop/dinner2.jpg);
+}
+.lunch:hover {
+    background: url(../img/foodtop/dinner2.jpg);
+}
+.dinner:hover {
+    background: url(../img/foodtop/dinner2.jpg);
+}
+.btn {
+    border: solid 2px red;
+    padding: 10px;
+    color: red;
+}
