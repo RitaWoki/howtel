@@ -1,8 +1,14 @@
-.top {
+.kichwa {
     background-image: url("../img/backgrounds/landing.jpg");
-    padding: 10%;
     background-repeat: no-repeat;
+}
+.ham {
+    color: #fff;
+    padding: 50px;    
+}
+.top {
     text-align: center;
+    padding: 10px;
 }
 .top h1 {
     color: #ffffff;
@@ -56,8 +62,100 @@
 .dinner:hover {
     background: url(../img/foodtop/dinner2.jpg);
 }
+
+/*
+========
+Gallery
+========
+*/
+.two {
+    display: inline-block;
+    vertical-align: top;
+    width: 38.5%;
+    margin-left: 7%;
+    margin-right: 3%;
+    padding-top: 30px;
+}
 .btn {
     border: solid 2px red;
     padding: 10px;
     color: red;
+}
+/*
+===========
+Tabs
+===========
+*/
+.back {
+    background: url(../img/backgrounds/foodsBg.jpg);
+    margin-top: 20px;
+    height: 500px;
+}
+/*
+=========
+customers
+=========
+*/
+.customers {
+    height: 300px;
+    padding-top: 50px;
+    margin-left: 5%;
+}
+.pics {
+    color: #F15A29;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.our {
+    color: #F15A29;
+    text-align: center;
+}
+.pip {
+    text-align: center;
+}
+/*
+=======
+Contact
+=======
+*/
+.cont {
+    background: url(../img/backgrounds/subscribe.jpg);
+    height: 250px;
+    color: #fff;
+}
+.email {
+    background: url(../img/foodtop/dinner2.jpg);
+    padding-right: 100px;
+    text-align: left;
+    margin-right: 8%;
+}
+.btnn {
+    background-color: #F15A29;
+    color: #fff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.fomu {
+    text-align: center;
+    color: #fff;
+}
+.ema {
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+/*
+=========
+footer
+=========
+*/
+.foot {
+    background-color: #F15A29;
+    color: #fff;
+    text-align: center;
+    height: 200px;
+    padding: 20px;
 }
