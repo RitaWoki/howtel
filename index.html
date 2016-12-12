@@ -6,6 +6,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="bootstrap.js" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
+    <script type="text/javascript" src="js/tabs.js"></script>
     <script src="https://use.fontawesome.com/5cc1902878.js"></script>
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -66,7 +67,77 @@
   </div>
   <div class="two"><img src="img/drink1.jpg"><img src="img/drink2.jpg"></div>
 <section class="back">
-    
+    <div class="container">	
+			<div id="tabs" class="tabs">
+				<nav>
+					<ul>
+						<li><a href="#section-1" class="icon-shop"><span class="t-head">Fast Food</span></a></li>
+						<li><a href="#section-2" class="icon-cup"><span class="t-head">Drinks</span></a></li>
+						<li><a href="#section-3" class="icon-food"><span class="t-head">Chicken</span></a></li>
+						<li><a href="#section-4" class="icon-lab"><span class="t-head">Rice</span></a></li>
+					</ul>
+				</nav>
+				<div class="content">
+					<section id="section-1">
+						<div class="mediabox">
+							<img src="img/fastfood/chickenBurger.jpg">
+                            <h3 class="ftype">Chicken Burger</h3>
+						</div>
+						<div class="mediabox">
+							<img src="img/fastfood/beefBurger.jpg">
+                            <h3 class="ftype">Beef Burger</h3>
+						</div>
+						<div class="mediabox">
+							<img src="img/fastfood/chickenPizza.jpg">
+                            <h3 class="ftype">Chicken Pizza</h3>
+						</div>
+					</section>
+					<section id="section-2">
+						<div class="mediabox">
+							<img src="img/fastfood/drink_1.jpg">
+                            <h3 class="ftype">Refreshing Sodas</h3>
+						</div>
+						<div class="mediabox">
+							<img src="img/fastfood/juice.jpg">
+                            <h3 class="ftype">Refreshing Juices</h3>
+						</div>
+						<div class="mediabox">
+							<img src="img/fastfood/fruit.jpg">
+                            <h3 class="ftype">Fruit Juices</h3>
+						</div>
+					</section>
+					<section id="section-3">
+						<div class="mediabox">
+							<img src="img/fastfood/chickenBurger.jpg">
+                            <h3 class="ftype">Chicken Burger</h3>
+						</div>
+						<div class="mediabox">
+							<img src="img/fastfood/beefBurger.jpg">
+                            <h3 class="ftype">Beef Burger</h3>
+						</div>
+						<div class="mediabox">
+							<img src="img/fastfood/chickenPizza.jpg">
+                            <h3 class="ftype">Chicken Pizza</h3>
+						</div>
+					</section>
+					<section id="section-4">
+						<div class="mediabox">
+							<img src="img/fastfood/chickenBurger.jpg">
+                            <h3 class="ftype">Chicken Burger</h3>
+						</div>
+						<div class="mediabox">
+							<img src="img/fastfood/beefBurger.jpg">
+                            <h3 class="ftype">Beef Burger</h3>
+						</div>
+						<div class="mediabox">
+							<img src="img/fastfood/chickenPizza.jpg">
+                            <h3 class="ftype">Chicken Pizza</h3>
+						</div>
+					</section>
+				
+				</div><!-- /content -->
+			</div><!-- /tabs -->
+		</div>
     
 </section>
 <section class="customers">
@@ -110,6 +181,9 @@
     
     <p>2016 Menu Restaurant</p>
 </footer>
+    <script>
+			new CBPFWTabs( document.getElementById( 'tabs' ) );
+		</script>
 </body>
 
 </html>
