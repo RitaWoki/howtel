@@ -75,7 +75,8 @@ Gallery
     margin-left: 7%;
     margin-right: 3%;
     padding-top: 30px;
-}
+
+}    
 .btn {
     border: solid 2px red;
     padding: 10px;
@@ -100,6 +101,7 @@ customers
     height: 300px;
     padding-top: 50px;
     margin-left: 5%;
+    
 }
 .pics {
     color: #F15A29;
@@ -378,6 +380,3 @@ Tabs
 
 ==========
 */
-.kando {
-    color: orangered;
-}
